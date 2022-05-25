@@ -1,0 +1,7 @@
+name: Grad Common Footer
+type: module
+description: Grad Common Footer Block
+core_version_requirement: ^8 || ^9
+package: custom
+dependencies:
+  - drupal:block
