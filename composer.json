@@ -1,0 +1,18 @@
+{
+    "name": "uazgraduatecollege/grad_drupal_common_footer",
+    "description": "A footer block with common links to be used across all grad.arizona.edu Drupal sites",
+    "type": "drupal-custom-module",
+    "autoload": {
+        "psr-4": {
+            "Uazgraduatecollege\\GradDrupalCommonFooter\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "UArizona Graduate College IT"
+        }
+    ],
+    "require": {
+        "drupal/core": "^9.2.13"
+    }
+}
