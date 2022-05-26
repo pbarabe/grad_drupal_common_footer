@@ -47,5 +47,5 @@ to the `Footer` region.
 ## Notes
 
 This module was created following the 
-[specbee Block Moudle Tutorial](https://www.specbee.com/blogs/programmatically-creating-block-in-drupal-9)
+[specbee Block Module Tutorial](https://www.specbee.com/blogs/programmatically-creating-block-in-drupal-9)
 
