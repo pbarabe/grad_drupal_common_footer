@@ -22,7 +22,6 @@ class GradDrupalCommonFooterBlock extends BlockBase {
       '#type' => 'markup',
       '#markup' => '<div class="content h-100 row d-flex flex-wrap field field--name-field-az-cards field--type-az-card field--label-hidden field__items">
   <div class="col-12 col-sm-12 col-md-4 col-lg-4 pb-4 field__item">
-
     <div class="card card-borderless bg-transparent h-100">
       <div class="card-body d-flex flex-column">
         <div class="card-text"><p class="text-align-center"><a href="https://grad.arizona.edu/catalog">Graduate Catalog</a><br>
@@ -34,8 +33,8 @@ class GradDrupalCommonFooterBlock extends BlockBase {
       </div>
     </div>
   </div>
-  <div class="col-12 col-sm-12 col-md-4 col-lg-4 pb-4 field__item">
 
+  <div class="col-12 col-sm-12 col-md-4 col-lg-4 pb-4 field__item">
     <div class="card card-borderless bg-transparent h-100">
       <div class="card-body d-flex flex-column">
         <div class="card-text"><p class="text-align-center"><a href="https://gradcenter.arizona.edu/">The Graduate Center</a><br>
@@ -46,8 +45,8 @@ class GradDrupalCommonFooterBlock extends BlockBase {
       </div>
     </div>
   </div>
-  <div class="col-12 col-sm-12 col-md-4 col-lg-4 pb-4 field__item">
 
+  <div class="col-12 col-sm-12 col-md-4 col-lg-4 pb-4 field__item">
     <div class="card card-borderless bg-transparent h-100">
       <div class="card-body d-flex flex-column">
         <div class="card-text"><p class="text-align-center"><a href="https://grad.arizona.edu/policies">Policies</a><br>
