@@ -1,4 +1,5 @@
-# Grad College Common Footer Block for Quickstart 2 / Drupal 9+
+# Grad College Common Footer Block
+## For Quickstart 2 / Drupal 9+
 
 This module provides a footer block with common links to be used by all
 grad.arizona.edu Quickstart 2 / Drupal websites.
@@ -43,4 +44,8 @@ $ terminus remote:drush en grad_drupal_common_footer
 Then navigate to the site's Blocks configuration, and assign the Grad Common Footer 
 to the `Footer` region.
 
+## Notes
+
+This module was created following the 
+[specbee Block Moudle Tutorial](https://www.specbee.com/blogs/programmatically-creating-block-in-drupal-9)
 
