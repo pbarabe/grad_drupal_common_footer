@@ -1,6 +1,6 @@
 <?php
 
-namespace Drupal\grad_common_footer\Plugin\Block;
+namespace Drupal\grad_drupal_common_footer\Plugin\Block;
 
 use Drupal\Core\Block\BlockBase;
 
@@ -12,7 +12,7 @@ use Drupal\Core\Block\BlockBase;
  *   admin_label = @Translation("Grad Common Footer")
  * )
  */
-class GradCommonFooterBlock extends BlockBase {
+class GradDrupalCommonFooterBlock extends BlockBase {
 
   /**
    * {@inheritdoc}
