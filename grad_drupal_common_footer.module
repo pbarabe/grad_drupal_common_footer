@@ -1,0 +1,20 @@
+<?php
+
+/**
+ * @file
+ * Contains grad_drupal_common_footer.module.
+ */
+
+use Drupal\Core\Routing\RouteMatchInterface;
+
+
+/**
+ * Implements hook_theme().
+ */
+function grad_drupal_common_footer_theme() {
+  $theme['grad_drupal_common_footer'] = [
+    'template' => 'grad_drupal_common_footer',
+  ];
+
+  return $theme;
+}
