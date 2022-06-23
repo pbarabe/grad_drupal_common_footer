@@ -36,13 +36,17 @@
     <div class="card card-borderless bg-transparent h-100">
       <div class="card-body d-flex flex-column">
         <div class="card-text">
-            <div id="uagc-ui-search" class="footer-col">
-            <form id="search-form" method="GET" action="https://grad.arizona.edu/tools/search">                                                            <input name="q" type="search" aria-label="Search" placeholder="Search">
-                <span class="form-actions form-wrapper">
-                <input type="submit" class="form-submit">
-                </span>
-            </form>
+          <form class="search-form search-block-form" accept-charset="UTF-8" method="GET" action="https://grad.arizona.edu/tools/search">
+            <div class="input-group">
+              <label for="grad-common-search" class="sr-only">Search</label>
+              <input id="grad-common-search" name="q" class="form-control" type="text" title="Search all GRAD websites" aria-label="Search all GRAD websites" aria-describedby="search-button" placeholder="Search all GRAD websites" onfocus="this.placeholder=''" onblur="this.placeholder='Search all GRAD websites'">
+              <div data-drupal-selector="edit-actions" class="form-actions js-form-wrapper input-group-append" id="edit-actions">
+                <button class="border-0 btn btn-red button form-submit pl-2 pr-2" type="submit" id="search-button">
+                  <span class="pl-1 pr-1 material-icons-sharp">search</search>
+                </button>
+              </div>
             </div>
+          </form>
         </div>
       </div>
     </div>

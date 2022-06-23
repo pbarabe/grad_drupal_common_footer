@@ -14,14 +14,13 @@ use Drupal\Core\Block\BlockBase;
  */
 class GradDrupalCommonFooterBlock extends BlockBase {
 
-/**
- * {@inheritdoc}
- */
-public function build() {
-  return [
-    '#theme' => 'grad_drupal_common_footer'
-  ];
-
-}
+  /**
+   * {@inheritdoc}
+   */
+  public function build() {
+    return [
+      '#theme' => 'grad_drupal_common_footer'
+    ];
+  }
 
 }
