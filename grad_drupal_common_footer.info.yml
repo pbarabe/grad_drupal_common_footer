@@ -1,7 +1,7 @@
 name: Grad Common Footer Block
 type: module
 description: Grad College Common Footer Block for Quickstart 2 & Drupal 9+
-core_version_requirement: ^8 || ^9
+core_version_requirement: ^9|| ^10
 package: custom
 dependencies:
   - drupal:block
